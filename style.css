@@ -188,3 +188,26 @@
   margin-top: 5px;
 }
 /* ==========Our Donate Plan area Ends========== */
+
+/* ===============Recent activities area Started===============  */
+#recent-works {
+  padding: 50px 20px;
+}
+.recent-work-sample {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.recent-work-sample img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 9px -4px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 5px 9px -4px rgba(0, 0, 0, 0.65);
+}
+/* ===============Recent activities area Ends===============  */
