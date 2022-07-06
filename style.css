@@ -142,17 +142,20 @@
 }
 
 /* ==========Lets donate area Ends========== */
+
 /* ==========Our Donate Plan area Starts========== */
 #our-donate-plan {
   padding: 50px 0;
-  width: 85%;
+  width: 100%;
   margin: auto;
+  background-color: #f8fafc;
 }
 .donate-plans {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 .plans {
   width: 400px;
@@ -198,6 +201,8 @@
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .recent-work-sample img {
   width: 350px;
@@ -211,3 +216,35 @@
   box-shadow: 0px 5px 9px -4px rgba(0, 0, 0, 0.65);
 }
 /* ===============Recent activities area Ends===============  */
+
+/* =============Contact us area started=============  */
+#contact-us {
+  padding: 50px 0px;
+  background-color: #f8fafc;
+}
+.form-with-image {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+.contact-form {
+  width: 50%;
+}
+.contact-input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 1px 0;
+}
+.contact-input input {
+  border: 1px solid #e5e5e5;
+}
+.contact-input textarea {
+  border: 1px solid #e5e5e5;
+}
+
+.custom-donate-button {
+  display: flex;
+  justify-content: center;
+}
