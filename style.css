@@ -282,6 +282,7 @@
 .newsletter-input::placeholder {
   font-size: 16px;
 }
+
 .newsletter-button {
   text-decoration: none;
   background-color: #ff5959;
@@ -297,3 +298,24 @@
   border-bottom: 1px solid #ff5959;
 }
 /* ==============Newsletter area Ends==============  */
+
+/* =============Footer area started=============  */
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #100432;
+  padding: 50px 0;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer-content h3 {
+  font-size: 36px;
+  color: #ff5959;
+  line-height: 60px;
+}
+/* =============Footer area ends=============  */
